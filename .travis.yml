@@ -1,0 +1,10 @@
+language: java
+
+jdk : 
+    - orackejdk8
+
+sudo : false
+
+script:
+    - ./gradlew clean build
+
